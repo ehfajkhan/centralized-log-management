@@ -4,16 +4,17 @@ Enterprise solution for Centralized Logging that will allow organization to capt
 
 ## Design Considerations
 * Ability to query application logs when needed.
-* Provide longer rention of logs in reliable and higly available (HA) as persistant storage.
+* Provide longer retention of logs in reliable and highly available (HA) as persistent storage.
 * Ability to handle high volume logs with low latency,
 * Scalable
 
 ## Architecture
-CLM is a collection of various technolgies in order to provide reliable, higly available and secure Enterprise Solution.
-Logs will be ingested using **Logstash**. Log is then moved to **Elasticsearch** and **Kafka**. **Elasticsearch** will be use for indexing.
-Once data is available in **Elasticsearch** can be view by visualisation tool **Kibana**.
+CLM is a collection of various technologies in order to provide reliable, highly available and secure Enterprise Solution.
+Logs will be ingested using **Logstash**. Log is then moved to **Elasticsearch** and **Kafka**. **Elasticsearch** will be use for data indexing.
 
-Logs can be published to **Kafka** and consumed by **Apache Flume** where *aggregation* can be applied.
+Once data is available in **Elasticsearch**, logs can be view by visualisation tool **Kibana**.
+
+Logs can be published to **Kafka** and consumed by **Apache Flume** where log *aggregation* can be applied.
 
 **Apache Flume** will store logs to **Hadoop** for longer retention period and can be consumed by **Elasticsearch**
 
