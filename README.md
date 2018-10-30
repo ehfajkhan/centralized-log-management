@@ -19,7 +19,7 @@ Logs can be published to **Kafka** and consumed by **Apache Flume** where *aggre
 
 
 
-![CLM](https://github.com/ehfajkhan/centralized-log-management/clm-1.0.png "CLM")
+![CLM](https://github.com/ehfajkhan/centralized-log-management/blob/master/clm-1.0.png)
 
 
 
