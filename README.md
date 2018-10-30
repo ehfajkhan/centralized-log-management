@@ -10,7 +10,7 @@ Enterprise solution for Centralized Logging that will allow organization to capt
 
 ## Architecture
 CLM is a collection of various technologies in order to provide reliable, highly available and secure Enterprise Solution.
-Logs will be ingested using **Logstash**. Log is then moved to **Elasticsearch** and **Kafka**. **Elasticsearch** will be use for data indexing.
+Logs will be ingested using **Logstash**. Log is then moved to **Elasticsearch** and **Kafka**. **Elasticsearch** will be used for data indexing.
 
 Once data is available in **Elasticsearch**, logs can be view by visualisation tool **Kibana**.
 
